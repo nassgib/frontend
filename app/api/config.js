@@ -1,4 +1,4 @@
-export const BASE_URL = 'http://students-nastya-back.nomoredomainswork.ru/api'
+export const BASE_URL = 'https://students-nastya-back.nomoredomainswork.ru/api'
 
 export const endpoints = {
   games: `${BASE_URL}/games`,
