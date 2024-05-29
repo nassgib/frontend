@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import { endpoints } from "@/app/api/config";
 import { CardsListSection } from "../components/CardsListSection/CardsListSection";
@@ -12,4 +12,4 @@ export default function New() {
       {tdsGames ? <CardsListSection id="tds" title="TDS" data={tdsGames} /> : <Preloader />}
     </main>
   );
-}
+};
