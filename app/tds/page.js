@@ -12,4 +12,4 @@ export default function New() {
       {tdsGames ? <CardsListSection id="tds" title="TDS" data={tdsGames} /> : <Preloader />}
     </main>
   );
-}
+};
